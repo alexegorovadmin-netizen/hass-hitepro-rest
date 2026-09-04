@@ -1,0 +1,14 @@
+DOMAIN = "hitepro_rest"
+
+CONF_BASE_URL = "base_url"
+
+DEFAULT_SCAN_INTERVAL = 15
+
+TYPE_SWITCH = "switch"
+TYPE_POWER = "power"
+TYPE_TEMPERATURE = "temperature"
+
+SUPPORTED_TYPES = (TYPE_SWITCH, TYPE_POWER, TYPE_TEMPERATURE)
+
+CMD_ON = 1
+CMD_OFF = 2

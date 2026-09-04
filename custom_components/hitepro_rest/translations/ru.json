@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "base_url": "Базовый URL Gateway (REST)",
+          "username": "Логин (email/телефон аккаунта HiTE PRO)",
+          "password": "Пароль REST API"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Неверный логин или пароль",
+      "cannot_connect": "Не удалось подключиться к Gateway HiTE PRO"
+    },
+    "abort": {
+      "already_configured": "Этот Gateway уже настроен"
+    }
+  }
+}
